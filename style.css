@@ -68,8 +68,13 @@ input {
 	color: rgba(0,0,0,0.6);
 }
 
-.review__review {
-	margin: 0;
+ .review--positive {
+	
+	border-left: 4px solid #2bd184;
+
+}
+.review--negative {
+	border-left: 4px solid #d1542b;
 }
 
 .review__date {
