@@ -73,9 +73,17 @@ input {
   font-weight: 700;
   color: rgba(0, 0, 0, 0.6);
 }
-
+Add_reviewbold
 .review__review {
   margin: 0;
+ .review--positive {
+	
+	border-left: 4px solid #2bd184;
+
+}
+.review--negative {
+	border-left: 4px solid #d1542b;
+  master
 }
 
 .review__date {
@@ -86,6 +94,16 @@ input {
 
 /* Input area to add a new review */
 .add-review {
+Add_reviewbold
   padding: 0.5rem 0rem;
   text-align: center;
+=======
+	padding: 0.5rem 1rem;
+	text-align: center;
+	
+master
+}
+.site-header .button {
+	box-shadow: 0 2px 2px white;
+	font-weight: bold;
 }
